@@ -7,6 +7,6 @@ export class MyAppService extends BaseService {
   }
 
   async sayHello(): Promise<string> {
-    return Promise.resolve("Hello world!");
+    return Promise.resolve('Hello world!');
   }
 }
